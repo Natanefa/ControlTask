@@ -27,11 +27,23 @@ import java.util.Scanner;
 public class SequenceSum {
 
     public static String showSequence(int value) {
-        Scanner scanner = new Scanner(System.in);
-
-
-
-
-        return "";
+        String res = "";
+        int sum = 0;
+        for (int i = 0; i <= value; i++)
+        {
+            if(i != 0){
+                res += "+";
+            }
+         res = res + i;
+            sum += i;
+        }
+      return res + " = " + sum;
     }
-}
+
+
+
+    }
+
+
+
+

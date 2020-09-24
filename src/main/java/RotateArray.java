@@ -37,25 +37,75 @@ rotate(data, 12478)    =>    {3, 4, 5, 1, 2}
 */
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class RotateArray {
-    public Object[] rotate(Object[] arr, int n) {
-        Object[] data = new Object[]{1, 2, 3, 4, 5};
-        Object[] res = new Object[data.length];
-        int last = 0;
-        for (int i = 0; i < data.length; i++){
-            if(i == 0){
-                res = data;
+    public Object[] rotate(Object[] data, int n) {
+//        Object[] data1 = new Object[]{1, 2, 3, 4, 5};
+//        Object[] res = new Object[data.length];
+//
+//        Object[] NameS = new Object[]{1, 2, 3, 4, 5};
+//
+//        int last = 0;
+//        for (int i = 0; i < data.length; i++){
+//            if(i == 0){
+//                res = data;
+//            }
+//            else if (i < 0) {
+//                res = Collections.rotate(ddd, -n);
+//            }
+//            else if (i > 0) {
+//                res = Collections.rotate(ddd, n);
+//            }
+//        }
+//        return res;
+
+
+        Object[] f = new Object[]{};
+
+        if (data.length != 0) {
+
+            ArrayList<Integer> a = new ArrayList();
+            for (Object i : (Object[]) data) {
+                int as = (Integer) i;
+                a.add(as);
             }
-            else if (i < 0) {
-                res = Collections.rotate(data, -n);
+
+            Collections.sort(a);
+
+            if (n == 5 || n == 0 || n == -5) {
+                return a.toArray();
             }
-            else if (i > 0) {
-                res = Collections.rotate(data, n);
+
+            if (n < 0) {
+                n = n + 10;
             }
+
+            if (n > 5) {
+                n = n - 5;
+            }
+
+            ArrayList<Integer> b = new ArrayList();
+
+            int first = a.get(a.size() - n - 1);
+
+            for (int t = 0; t < a.size(); t++) {
+
+                b.add(a.get(first));
+                first = first + 1;
+
+                if (first >= 5) {
+                    first = 0;
+                }
+            }
+
+            return b.toArray();
         }
-        return res;
-        }
+
+        return f;
     }
+}
+
 

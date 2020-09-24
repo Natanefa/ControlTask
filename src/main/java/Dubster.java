@@ -40,23 +40,6 @@ Return the words of the initial song that Polycarpus used to make a dubsteb remi
 
 public class Dubster {
     public static String songDecoder(String song) {
-//        String song = "We are young and lost and so afraid";
-//        String songWub = "";
-//        String wub = "WUB";
-//        int wubs = 3;
-//        for (int i = 1; i <= wubs; i++) {
-//            songWub = songWub + wub;
-//        }
-//        for (String word : song.split(" ")) {
-//            word = word + wub;
-//            System.out.print(word);
-//        }
-//
-//
-//
-//        System.out.println("");
-//        System.out.println("songWub - " + songWub);
-
         String res = "";
         Boolean isFirst = true;
         String[] wubs = song.split("WUB");
@@ -72,7 +55,7 @@ public class Dubster {
         }
 
         return res.trim();
-//        return song.replace("WUB", " ").trim();
+
 
 //        return songWub + word + songWub;
     }

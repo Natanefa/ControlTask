@@ -3,8 +3,24 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cc8a64-d01b-4b83-9a9f-f9a8c76c2a1b" name="Default Changelist" comment="" />
+    <list default="true" id="21cc8a64-d01b-4b83-9a9f-f9a8c76c2a1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dubster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dubster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SequenceSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SequenceSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SequenceSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SequenceSum.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,6 +44,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1h6lAloW2z0FHPEo1aGkk1uR4y5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -34,34 +54,19 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="JUnit.RotateArrayTest">
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotateArray" />
-      <module name="java-basic-practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DubsterSongDecoderTests">
     <configuration name="DubsterSongDecoderTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-basic-practice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DubsterSongDecoderTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DubsterSongDecoderTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-basic-practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DubsterSongDecoderTests" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,13 +89,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateArrayTest.testRotateSix_ArrayOfFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-basic-practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RotateArrayTest" />
+      <option name="METHOD_NAME" value="testRotateSix_ArrayOfFive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequenceSumTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-basic-practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SequenceSumTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RotateArrayTest" />
-        <item itemvalue="JUnit.JadenTextTests" />
         <item itemvalue="JUnit.DubsterSongDecoderTests" />
-        <item itemvalue="JUnit.DubsterSongDecoderTests.test2" />
-        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="JUnit.SequenceSumTests" />
+        <item itemvalue="JUnit.RotateArrayTest" />
+        <item itemvalue="JUnit.RotateArrayTest.testRotateSix_ArrayOfFive" />
+        <item itemvalue="JUnit.JadenTextTests" />
       </list>
     </recent_temporary>
   </component>
@@ -105,39 +129,59 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600594474893">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600594474893" />
+    <state x="706" y="256" width="565" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1600803734981">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="706" y="256" width="565" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1600803734981" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1600798876501">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600798876501" />
     <state x="-765" y="431" width="490" height="395" key="#xdebugger.evaluate" timestamp="1600238805118">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-765" y="431" width="490" height="395" key="#xdebugger.evaluate/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600238805118" />
-    <state x="615" y="296" width="735" height="513" key="FileChooserDialogImpl" timestamp="1600524764875">
+    <state x="615" y="296" width="735" height="513" key="FileChooserDialogImpl" timestamp="1600844249635">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="615" y="296" width="735" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1600524764875" />
-    <state width="1807" height="378" key="GridCell.Tab.0.bottom" timestamp="1600627358343">
+    <state x="615" y="296" width="735" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1600844249635" />
+    <state width="1807" height="378" key="GridCell.Tab.0.bottom" timestamp="1600844273670">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1877" height="338" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600239204217" />
-    <state width="1807" height="378" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600627358343" />
-    <state width="1807" height="378" key="GridCell.Tab.0.center" timestamp="1600627358342">
+    <state width="1807" height="378" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1600844273670" />
+    <state width="1807" height="378" key="GridCell.Tab.0.center" timestamp="1600844273669">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1877" height="338" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600239204217" />
-    <state width="1807" height="378" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600627358342" />
-    <state width="1807" height="378" key="GridCell.Tab.0.left" timestamp="1600627358342">
+    <state width="1807" height="378" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1600844273669" />
+    <state width="1807" height="378" key="GridCell.Tab.0.left" timestamp="1600844273669">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1877" height="338" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600239204217" />
-    <state width="1807" height="378" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600627358342" />
-    <state width="1807" height="378" key="GridCell.Tab.0.right" timestamp="1600627358343">
+    <state width="1807" height="378" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1600844273668" />
+    <state width="1807" height="378" key="GridCell.Tab.0.right" timestamp="1600844273669">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1877" height="338" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600239204217" />
-    <state width="1807" height="378" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600627358343" />
+    <state width="1807" height="378" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600844273669" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1600595273037">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -158,10 +202,10 @@
     </state>
     <state width="1877" height="338" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1600239204217" />
     <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1600595273037" />
-    <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1600524876892">
+    <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1600628359694">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="476" y="130" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1600524876892" />
+    <state x="476" y="130" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1600628359694" />
     <state x="660" y="446" width="646" height="213" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600524820805">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -172,20 +216,6 @@
     <state x="683" y="310" width="610" height="485" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600620945479" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Dubster.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Dubster.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="wubs[1]" />
